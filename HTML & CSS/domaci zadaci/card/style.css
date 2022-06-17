@@ -1,0 +1,53 @@
+
+body {
+    background-image: url(./BG1.jpg);
+    background-color: #1C1C1C;
+    font-family: 'Spectral SC', serif;
+    align-content: center;
+}
+
+.card {
+    position: relative;
+    background-color: #E31C25;
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    margin:  10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #292929 ;
+    border: 1.2px solid #E31C25;
+}
+
+div img {
+    position: relative;
+    width: 460px;
+    height: 290px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.card h1 {
+    position: relative;
+    top: -59px;
+    margin-left: 55px;
+}
+
+.card h2 {
+    position: relative;
+    font-size: 18px;
+    padding: 30px;
+    top: -108px;
+    margin-left: 50px;
+}
+
+.card p {
+    position: relative;
+    margin-top: -180px;
+    padding: 0px;
+    font-size: 12px;
+    top: 40px;
+    margin-left: 5px;
+}
+

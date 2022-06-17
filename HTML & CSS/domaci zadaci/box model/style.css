@@ -1,0 +1,223 @@
+.container {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F6F7F8;
+    width: 450px;
+    height: 217px;
+    padding: 50px;
+    margin-left: 60px;
+    margin-top: 240px;
+    box-shadow :  1px 1px 10px 1px black;
+
+}
+
+h3 {
+    margin: 0px;
+    color: #9CA3AF;
+    
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+.strelica {
+    position: relative;
+    margin-left: 134px;
+    bottom:  44px;
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+h4 {
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+.oko {
+    margin: auto 183px;
+    margin-top: 43px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+    
+
+}
+
+.okobroj {
+    font-size: 15px;
+    margin: auto 206px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentar {
+    margin: auto 143px;
+    margin: auto 248px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentarbroj {
+        font-size: 15px;
+        margin: auto 270px;
+        margin-top: -19px;
+        float: left;
+        filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+    
+}
+
+.container1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F6F7F8;
+    width: 450px;
+    height: 217px;
+    padding: 50px;
+    margin-left: 650px;
+    margin-top: -316px;
+    box-shadow :  1px 1px 10px 1px black;
+
+
+}
+
+h3 {
+    margin: 0px;
+    color: #9CA3AF;
+    
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+.strelica1 {
+    position: relative;
+    margin-left: 134px;
+    bottom:  44px;
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+h4 {
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+.oko1 {
+    margin: auto 183px;
+    margin-top: -16px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+    
+
+}
+
+.okobroj1 {
+    font-size: 15px;
+    margin: auto 206px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentar1 {
+    margin: auto 143px;
+    margin: auto 248px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentarbroj1 {
+        font-size: 15px;
+        margin: auto 270px;
+        margin-top: -19px;
+        float: left;
+        filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+    
+}
+
+.container2 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F6F7F8;
+    width: 450px;
+    height: 217px;
+    padding: 50px;
+    margin-left: 1240px;
+    margin-top: -316px;
+    box-shadow :  1px 1px 10px 1px black;
+
+}
+
+h3 {
+    margin: 0px;
+    color: #9CA3AF;
+    
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+.strelica2 {
+    position: relative;
+    margin-left: 134px;
+    bottom:  44px;
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+h4 {
+    filter: invert(51%) sepia(37%) saturate(6925%) hue-rotate(215deg) brightness(104%) contrast(90%);
+}
+
+.oko2 {
+    margin: auto 183px;
+    margin-top: -19px;
+
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+    
+
+}
+
+.okobroj2 {
+    font-size: 15px;
+    margin: auto 206px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentar2 {
+    margin: auto 143px;
+    margin: auto 248px;
+    margin-top: -19px;
+    float: left;
+    filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+
+}
+
+.komentarbroj2 {
+        font-size: 15px;
+        margin: auto 270px;
+        margin-top: -19px;
+        float: left;
+        filter: invert(61%) sepia(7%) saturate(239%) hue-rotate(85deg) brightness(93%) contrast(86%);
+    
+}

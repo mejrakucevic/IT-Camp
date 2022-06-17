@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Cas</title>
+</head>
+<body>
+
+    <h2>Forme:</h2>
+    <p>Na ovoj stranici cemo odraditi forme (one najvaznije) i videti na koji nacin funkcionise npr. prijavljivanje na nekoj drustvenoj mrezi.</p>
+    <!-- form, h1, p, button... su tagovi, a action, type i jos neki koje cemo kasnije raditi su atributi-->
+    <!-- Unutar form taga imamo atribut action koji se odnosi na to gde ce nas odvesti dugme Submit-->
+    <form action="./index3.html">
+        <label for="name">Unesite svoje ime:</label>
+        <input type="text" name="Ime" id="name" placeholder="Unesite ime" required>  <br> 
+
+        <label for="lastname">Unesite svoje prezime:</label>
+        <input type="text" name="Ime" id="lastname" placeholder="Unesite Prezime" required> <br>
+
+        <label for="pass">Unesite Sifru</label>
+        <input type="password" name="sifra" id="pass" required>  <br>
+
+        <label for="email">Unesite svoj email:</label>
+        <input type="email" name="email" id="email" placeholder="Unesite email" required> <br>
+
+        <label for="age">Unesite svoje godine:</label>
+        <input type="number" name="godine" id="age" min="18" max="120" step="2" > <br>
+
+        <label for="birthdate"> Unesite datum rodjenja:</label>
+        <input type="date" name="Datum" id="birthdate" min="1900-01-01" max="2022-01-01"> <br>
+
+
+        <p> Odaberite svoje omiljeno voce:</p>
+        <label for="Banana"> Banana</label> 
+        <input type="checkbox" name="Banana" id="Banana"> <br>
+        <label for="Jabuka"> Jabuka</label> 
+        <input type="checkbox" name="Jabuka" id="Jabuka"> <br>
+        <label for="Nar"> Nar</label> 
+        <input type="checkbox" name="Nar" id="Nar" checked> <br>
+        <label for="Dinja"> Dinja</label> 
+        <input type="checkbox" name="Dinja" id="Dinja">
+
+        <p> Unesite pol:</p>
+        <label for="male"> Male</label>
+        <input type="radio" name="pol" id="male" value="male"> <br>
+
+        <label for="female"> Female</label>
+        <input type="radio" name="pol" id="female" value="female"> <br>
+
+        <label for="eyecolor"> Unesite boju ociju:</label>
+        <select name="eyecolor" id="eyecolor">
+            <option value="Brown"> Braon</option>
+            <option value="Blue"> Plave</option>
+            <option value="Green"> Zelene</option>
+            <option value="Black" selected> Crne</option>
+        </select> <br>
+
+        <label for="color"> Unesite omiljenu boju:</label>
+        <input type="color"  name="boja" id="color">
+        
+        <br><br>
+        <button type="submit"> Potvrdi </button>
+        <button type="reset"> Resetuj sve podatke </button>
+    </form>
+</body>
+</html>
