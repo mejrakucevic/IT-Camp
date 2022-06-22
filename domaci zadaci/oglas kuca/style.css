@@ -1,0 +1,119 @@
+
+body {
+    background-color: #565759;
+}
+
+
+.container {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F6F7F8;
+    width: 370px;
+    height: 457px;
+    padding: 50px;
+    margin-left: 400px;
+    margin-top: 25px;
+    box-shadow :  1px 1px 10px 1px black;
+    
+
+}
+
+.kuca_slika {
+    margin: 0px;
+    margin-top: -50px;
+    margin-left: -50px;
+ 
+}
+
+h3 {
+    margin: 0px;
+    color: #9CA3AF;
+    
+}
+
+h1 {
+    padding: 5px;
+    font-size: 28px;
+}
+.info {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #9CA3AF;
+}
+
+.krevet_slika {
+    position: relative;
+    margin-left: -380px;
+    bottom: -20px;
+    width: 35px;
+    height: 25px;
+}
+
+.kupatilo_slika {
+    position: relative;
+    margin-left: -384px;
+    bottom: -10px;
+    width: 35px;
+    height: 30px;
+    margin-top: -40px;
+}
+
+.sqm_slika {
+    position: relative;
+    margin-left: -384px;
+    bottom: -18px;
+    width: 35px;
+    height: 35px;
+    margin-top: -500px;
+}
+
+.sobe {
+    margin-top: -7px;
+    margin-left: -250px;
+    font-size: 20px;
+    
+}
+
+.povrsina {
+    margin-top: -16px;
+    margin-left: -237px;
+    font-size: 20px;
+}
+
+.kupatila {
+    margin-top: -19px;
+    margin-left: -199px;
+    font-size: 20px;
+
+}
+
+
+.container1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #F6F7F8;
+    width: 450px;
+    height: 217px;
+    padding: 50px;
+    margin-left: 700px;
+    margin-top: -316px;
+    box-shadow :  1px 1px 10px 1px black;
+
+
+}
+
+h3 {
+    margin: 0px;
+    color: #9CA3AF;
+    
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+}
+
