@@ -1,7 +1,64 @@
-#ikona {
-    color: red;
+.p:nth-of-type(1) {
+    background-color: beige;
+    margin: 50px auto;
+    width: 650px;
+    height: 200px;
+    padding: 50px;
+    /* overflow: hidden;  gubi se teskst koji zlazi iz okvira visine kontejnera*/
+    /* overflow: visible; ovo je default */
+    /* overflow: scroll; dodajte opciju scrolla i za visinu i za sirinu */
+    /* overflow: auto;  dodajte opciju scroll samo gde je potrebno */
+    overflow-y: scroll; /* Specificno za y osu dodaje scroll*/
 }
 
-#ikona1 {
+.p:nth-of-type(2) {
+    background-color: blue;
+    margin: 50px auto;
+    width: 650px;
+    height: 200px;
+    padding: 50px;
+    /* overflow: hidden;  gubi se teskst koji zlazi iz okvira visine kontejnera*/
+    /* overflow: visible; ovo je default */
+    /* overflow: scroll; dodajte opciju scrolla i za visinu i za sirinu */
+    /* overflow: auto;  dodajte opciju scroll samo gde je potrebno */
+    overflow-y: scroll; /* Specificno za y osu dodaje scroll*/
+    /* display: none; /* Ovaj metod u potpunosti "brise" odredjeni sadrzaj */
+     visibility: hidden; /* Ovaj metod zauzima prostor na stranici, medjutim sadrzaj je nevidljiv. */
+
+}
+
+.p:nth-of-type(3) {
+    background-color: pink;
+    margin: 50px auto;
+    width: 650px;
+    height: 200px;
+    padding: 50px;
+    /* overflow: hidden;  gubi se teskst koji zlazi iz okvira visine kontejnera*/
+    /* overflow: visible; ovo je default */
+    /* overflow: scroll; dodajte opciju scrolla i za visinu i za sirinu */
+    /* overflow: auto;  dodajte opciju scroll samo gde je potrebno */
+    overflow-y: scroll; /* Specificno za y osu dodaje scroll*/
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#ikona {
     color: red;
+    background-color: black;
+    margin: 5px 7px 5px 7px;
+}
+
+#ikonaa {
+    color: red;
+    background-color: black;
+    margin: 5px 7px 5px 7px;
+}
+
+#ikonaaa {
+    color: red;
+    background-color: black;
+    margin: 5px 7px 5px 7px;
 }
