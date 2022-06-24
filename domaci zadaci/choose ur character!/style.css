@@ -1,0 +1,157 @@
+
+
+@font-face {
+    font-family: 'retro_gamingregular';
+    src: url('./Retro\ Gaming.ttf') format('woff2'),
+    url('retro_gaming-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'retro_gamingregular';
+}
+
+
+body {
+    background-image: url(./bg.jpg);
+}
+
+.naslov {
+    text-align: center;
+    color: azure;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.naslov:hover {
+    zoom: 1.05;
+}
+
+.container {
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: #000000;
+    margin-left: 340px;
+    margin-top: 100px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .1rem #fff,
+                0 0 .1rem #fff,
+                0 0 1rem #bc13fe,
+                0 0 0.6rem #bc13fe,
+                0 0 2.1rem #bc13fe,
+                inset 0 0 1rem #bc13fe;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*.container:hover {
+    width: 450px;
+    height: 550px;
+} */
+
+.reynaimg {
+    margin-top: -135px;
+    margin-left: -130px;
+}
+
+/*.reynaimg:hover {
+    zoom: 1.1;
+} */
+
+h3 {
+    color: #EEEEEE;
+    font-size: 50px;
+    margin-left: 110px;
+    margin-top: -15px;
+    
+}
+
+.container:nth-of-type(2) {
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: #000000;
+    margin-left: 1080px;
+    margin-top: -600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.neonimg {
+    margin-top: -140px;
+    margin-left: -115px;
+}
+
+.neon {
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.tekstreyna {
+    margin-top: -50px;
+    color: #EEEEEE;
+}
+
+.tekstneon {
+    margin-top: -50px;
+    color: #EEEEEE;
+}
+
+.leer {
+    color: #EEEEEE;
+    margin-top: -42px;
+    margin-left: 60px;
+}
+
+.devour {
+    color: #EEEEEE;
+    margin-top: -48px;
+    margin-left: 60px;
+}
+
+.ultimate {
+    color: #EEEEEE;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+
+.nability1 {
+    color: #EEEEEE;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+.nability2 {
+    color: #EEEEEE;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+.nultimate {
+    color: #EEEEEE;
+    margin-top: -48px;
+    margin-left: 70px;
+}
+
+.container::-webkit-scrollbar {
+    width: 14px;
+    
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #000000;
+    border-radius: 100px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color:  white;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+
