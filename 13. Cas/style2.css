@@ -1,0 +1,73 @@
+* {
+    margin: 0; 
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kontejner {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: dashed 2px black
+}
+.kontejner:nth-of-type(2) {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: dashed 2px black
+}
+.kontejner:nth-of-type(3) {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: dashed 2px black
+}
+
+.paragraf2:hover {
+    background-color: aqua;
+}
+
+.rec {
+    font-size: 15px;
+    color: red;
+}
+
+.rec2 {
+    font-size: 20px;
+    color: blue;
+}
+
+.rec3 {
+    font-size: 15px;
+    color: aquamarine;
+}
+
+.rec4 {
+    font-size: 7px;
+    color: brown;
+}
+
+.back {
+    margin: 20px auto;
+    width: 850px;
+    height: 700px;
+    color: white;
+    background-image: url(./BG1.jpg);
+    background-repeat: no-repeat;
+    /*background-size: 300px 200px; prva vrednost se odnosi na sirinu druga na duzinu 
+    background-size: cover; prekriva citav kontejner 
+    background-size: contain; povecava fotografiju kako bi se popunio kontejner, ali ne sece je
+    SLEDECI CAS RADIMO UNIT*/
+
+}
+
+.back h1 .span{
+    color: blue;
+}
+
