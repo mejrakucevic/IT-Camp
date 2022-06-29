@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #131313;
+}
+
+.header img{
+    position: relative;
+    width: 5rem;
+    height: 4.5rem;
+    margin-right: 57rem;
+    margin-left: 1.2rem;
+    top: 0.7rem;
+
+}
+
+.header {
+    margin: 0px auto;
+    background-color: #1D1D1D;
+    padding-bottom: 1rem;
+}
+
+.header h1{
+    position: absolute;
+    top: 1.6rem;
+    margin-left: 6.9rem;
+    color: #ec251f;
+}
+
+.header a{
+    text-decoration: none;
+    color: #ec251f;
+    margin-right: 2rem;
+    margin-bottom: rem;
+}
+
+.slika1 {
+    width: 700px;
+    height: 480px;
+    margin-top: 2rem;
+    box-shadow: 20px white;
+}
+
+.naslov {
+    margin-top: -24rem;
+    color:  white;
+    text-decoration: double;
+    margin-left: 46rem;
+    font-size: 65px;
+}
+
+.dugme {
+    font-size: 3rem;
+    margin-left: 49rem;
+    margin-top: 1.2rem;
+    box-shadow: 5px 5px #b91119;
+    text-decoration: none;
+    background-color: #1D1D1D;
+    color: #ec251f;
+    width: 250px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.slika1 {
+    ;
+}
