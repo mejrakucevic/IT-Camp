@@ -1,0 +1,32 @@
+* {
+    margin: 0ch
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    float: left; 
+    margin-right: 15px;
+    
+}
+
+p {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.prvi {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    clear: both;
+    
+}
+
+.drugi {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(47, 245, 245, 0.7);
+}
