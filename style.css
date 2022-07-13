@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+ /*
+.parent {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color:  rgb(83, 83, 179);
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color:  rgb(207, 81, 81);
+    /*        naziv animacije, trajanje, funkcija ostaje na mestu izvrsenja, broj ponavljanja, svako pomeranje predstavlja jedno izvrsenje animacije
+    
+    top-to-bottom : naziv animacije
+    3s : trajanje izrsenja 
+    ease-in : funkcija
+    forwards : ostaje na mestu izvrsenja naon samog izvrsenja
+    infinite : broj ponavljanja 
+    alternate : svako pomeranje predstavlja jedno izvrsenje animacije 
+    animation: top-to-bottom 3s ease-in forwards infinite alternate;
+    }
+
+    .parent:hover .child {
+        animation-play-state: paused;
+    }
+
+
+@keyframes top-to-bottom {
+    33% {
+        transform: translate(350px, 80px);
+        background-color: orangered;
+        
+    }
+
+    66% {
+        transform: translate(350px, 160px);
+        background-color: azure;
+        
+    }
+
+    100% {
+        transform: translateY(250px);
+        background-color: black;
+        border-radius: 50%;
+    }
+} */
+
+
+
+
+.parent1 { 
+    margin: 0 auto;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.child1 {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: top-to-bottom 2s ease-in forwards infinite alternate;
+
+
+}
+
+.parent1:hover .child1 {
+    animation: top-to-bottom 2s ease-in forwards infinite alternate;
+}
+
+
+@keyframes top-to-bottom {
+    25% {
+        transform: translate(200px, 100px);
+    }
+
+    50% {
+        transform: translate(300px, 200px);
+    }
+
+    75% {
+        transform: translate(420px, 320px);
+
+    100% {
+        transform: translate(540px, 440px);
+    }
+    }
+}
+
+
+
+.parent1:hover .child1 {
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
