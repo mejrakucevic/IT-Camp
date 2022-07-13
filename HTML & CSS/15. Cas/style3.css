@@ -47,5 +47,6 @@ button {
     outline: none;
     width: 150px;
     height: 20px;
-    
 }
+
+.form input:nth-child(1) 
