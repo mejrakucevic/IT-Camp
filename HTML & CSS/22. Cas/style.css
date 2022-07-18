@@ -141,22 +141,31 @@ bottom: -50px;
 text-align: left;
 }
 
+/* media uvek ide zadnja. Ide se od veceg ka menjem ekranu, tipa prvo za desktop/laptop, pa tablet i na kraju telefon.  */
 
-/* media uvek ide zadnja */
-@media (max-width: 500px) {
-    .header {
+@media (min-width: 500px;), (max-width: 620px) {
+    main {
         width: 100%;
     }
     
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        width: 100%;
+        flex-grow: 1;
+    }
+    
     .header a {
+        flex-direction: column;
         margin-right: 500px;
         
 
     }
 
     .flexbox {
-        width: 70%;
+        width: 80%;
     }
-
 
 }
