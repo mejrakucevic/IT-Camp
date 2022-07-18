@@ -15,47 +15,49 @@ body {
     background-color: rgb(83, 83, 200);
     /* overflow: auto; */ 
     display: grid;
-    /* grid-template-columns:  ; */
+    /* grid-template-columns: 200px 200px 120px ; prva vrednost se odnosi na prvu kolonu, druga na drugu.. */
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: 1fr 2fr 1fr; */
-    /* grid-template-columns: repeat(4, 150px); */
-    
+    grid-template-columns: repeat(3, 150px); 
+    /* grid-template-rows: 200px 150px;, Prva vrednost se odnosi na 1. red, a druga na 2.red! */
+    /* grid-auto-rows: 150px ; 150px je visina koju ce imati SVAKI red! */
+    grid-auto-rows: minmax(150px, auto); /* Funkcija koja definise defaultnu vrednost za visinu reda (prvi argument unutar funkcije,), auto predstavlja eventualno povecanje u slucaju veceg sardzaja. */
     
     
 }
 
 .box1 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: black;
 }
 
 .box2 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(111, 14, 14);
 }
 
 .box3 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(74, 5, 66);
 }
 
 .box4 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(150, 90, 31);
 }
 
 .box5 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(243, 28, 175);
 }
 
 .box6 {
     /* width: 150px; */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(240, 240, 240);
 }
