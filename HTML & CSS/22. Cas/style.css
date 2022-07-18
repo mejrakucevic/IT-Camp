@@ -141,6 +141,8 @@ bottom: -50px;
 text-align: left;
 }
 
+
+/* media uvek ide zadnja */
 @media (max-width: 500px) {
     .header {
         width: 100%;
@@ -151,5 +153,10 @@ text-align: left;
         
 
     }
+
+    .flexbox {
+        width: 70%;
+    }
+
 
 }

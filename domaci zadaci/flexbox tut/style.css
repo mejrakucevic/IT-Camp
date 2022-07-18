@@ -18,6 +18,7 @@ body {
     /* justify-content: space-between; */
     /* justify-content: space-around; always on the main axis */
     align-items: center; /* always on the cross axis */
+    
 
 }
 
