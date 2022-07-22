@@ -1,3 +1,11 @@
 h2 {
     background-color: #7b35bd;
 }
+
+span {
+    font-style: italic;
+}
+
+p {
+    line-height: 1.7;
+}
